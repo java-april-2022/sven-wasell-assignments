@@ -7,7 +7,7 @@ public class Mammal {
 		this.energyLevel = energyLevel;
 	}
 	public int displayEnergy() {
-		System.out.printf("Energy level is %f", energyLevel);
-		return this.energyLevel;
+		System.out.printf("Energy level is %s\n", energyLevel);
+		return energyLevel;
 	}
 }
